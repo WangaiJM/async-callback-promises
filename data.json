@@ -1,0 +1,32 @@
+[
+  {
+    "name": "John",
+    "age": 28,
+    "address": {
+      "box": 572,
+      "code": "20117",
+      "town": "Naivasha"
+    },
+    "children": ["Mary", "Jane"]
+  },
+  {
+    "name": "Jackson",
+    "age": 30,
+    "address": {
+      "box": 481,
+      "code": "20100",
+      "town": "Nakuru"
+    },
+    "children": ["Leo"]
+  },
+  {
+    "name": "Mary",
+    "age": 25,
+    "address": {
+      "box": 234,
+      "code": "00100",
+      "town": "Nairobi"
+    },
+    "children": ["Ann", "James", "Lynn"]
+  }
+]
