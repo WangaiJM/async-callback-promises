@@ -11,4 +11,12 @@ body {
   text-transform: uppercase;
   border: none;
   box-shadow: 0 0 5px 0 rgb(241, 49, 248);
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.01);
+}
+.change {
+  background-color: rgb(24, 163, 147);
+  /* transform: scale(1.01); */
 }
