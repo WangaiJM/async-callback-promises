@@ -28,5 +28,15 @@
       "town": "Nairobi"
     },
     "children": ["Ann", "James", "Lynn"]
+  },
+  {
+    "name": "James",
+    "age": 28,
+    "address": {
+      "box": 89,
+      "code": "20117",
+      "town": "Naivasha"
+    },
+    "children": ["Ann", "King", "lyon"]
   }
 ]
