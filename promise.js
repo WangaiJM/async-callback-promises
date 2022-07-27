@@ -20,9 +20,13 @@ function userEmployer(email) {
 // });
 
 async function displayUser() {
-  const loggedUser = await getUSer("jack@user.com", 123);
-  const employer = await userEmployer(loggedUser.email);
-  console.log(loggedUser, employer);
+  try {
+    const loggedUser = await getUSer("jack@user.com", 123);
+    const employer = await userEmployer(loggedUser.email);
+    console.log(loggedUser, employer);
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 displayUser();
